@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularBinding';
+  getChild: string;
+
+  getParent(phrase: string) {
+    this.getChild= phrase;
+  }
+
 }
